@@ -1,0 +1,33 @@
+#logo{
+	display: flex;
+	padding-left: 25px;
+}
+
+#entrar{
+    border: none;
+    color: #ffffffad;
+    padding: 10px;
+    background: #FFD500 0% 0% no-repeat padding-box;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+
+#topo_centro{
+}
+
+#botao{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 25px;
+    margin: 10px;
+    position: relative;
+    transition: color 0.5s ease-in, background-color 1s ease;
+}
+
+
+#botao:hover{
+	color: black;
+	background-color: white;
+}

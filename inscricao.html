@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google</title>
+<style>
+	body{
+		margin: 0px;
+	}
+	#form input[type='text'] {
+
+		border: none;
+		border-bottom: 1px solid white;
+		padding: 5px;
+		margin: 10px;
+		width: 95% !important;
+		background-color: transparent !important; 
+
+	}
+
+	#form{
+		width: 50%;
+		background-color: rgba(0,0,0,0.2);
+		margin: 10px;
+		position: relative;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+
+	#logo{
+	display: flex;
+	padding-left: 25px;
+	}
+
+	#entrar{
+	    border: none;
+	    color: #ffffffad;
+	    padding: 10px;
+	    background: #FFD500 0% 0% no-repeat padding-box;
+	    position: absolute;
+	    right: 25px;
+	    top: 10px;
+	}
+
+	#topo_centro{
+	}
+
+	#botao{
+	    text-decoration: none;
+	    color: white;
+	    background-color: blue;
+	    padding: 10px;
+	}
+
+</style>
+</head>
+<body>
+
+	<main>
+		<header style="text-align: center;">
+			<div>
+				<div id="logo">
+					<img src="img/Minimal Logo.svg">
+					<p style="margin-left: 10px; color: gray;">Faça Parte Sobre o Evento</p>
+				</div>
+				<div>
+					<button id="entrar" >Entrar</button>
+				</div>
+			</div>
+			<div>
+				<div id="topo_centro">
+					<p style="margin: 0px; margin-right: 10px; font-size: 40px; color: grey;">Google</p>
+					<img src="img/graphs.svg">
+					<p style="margin: 0px; margin-left: 10px; font-size: 40px; color: grey;">Extended</p>
+					<small style="color: gray; font-size: 15px;">Ilhéus</small>
+					<p  style="color: gray; font-size: 15px;"><small>#io18extended</small></p>
+					<p  style="color: gray; font-size: 15px;"><small>#io18extendedileus</small></p>
+				</div>
+			</div>
+		</header>
+		<div id="form">
+			<form>
+					<h3 style="padding: 5px; color: white; background-color: orange;">
+						Cadrasto Mini	 
+					</h3>
+					<br>
+					<p style="padding: 10px;">
+						Dados Pessoais 
+					</p>
+					<input placeholder="Nome" type="text"  name="name" value=""> 
+					<input placeholder="Email" type="text" name="email" value="">
+					<div style="display: flex;">
+							<input placeholder="Cpf" type="text" s name="cpf" value="">
+							<input placeholder="Data de Nascimento" type="text" name="Data de nascimento" value="">
+					</div>
+				  	 <p  style="padding: 10px; padding-bottom: 0px;">
+					 	Detalhes
+					 </p>
+					 <p  style="padding: 10px; padding-bottom: 0px;">
+					 	Escolaridade
+					 </p>
+					 <input type ="radio" name="gender" value="Ensino Medio"> Ensino Médio <br>
+					 <input type ="radio" name="gender" value="Ens. Sup. Incompleto"> Ensino Superior (Incompleto) <br>
+					 <input type="radio" name="gender" value ="Ens. Sup. completo"> Ensino Superior (Completo)<br>
+					 
+					 <input placeholder="Instituição de Ensino" type="text" name="name" >
+					 <p  style="padding: 10px; padding-bottom: 0px;">
+					 	Sexo
+					 </p>
+					 <input type ="radio" name="gender" value="feminino"> Feminino <br>
+					 <input type ="radio" name="gender" value="masculino"> Masculino <br>
+					 <input type="radio" name="gender" value ="outrx"> Outrx <br>
+					 <div style="padding: 25px;">
+					 	<p style="padding: 10px; padding-bottom: 0px;">Toques Finais</p>
+					 	<div style="display: flex; margin-bottom: 25px;">
+					 		<input placeholder="senha" type ="text" name="senha" >
+					 		<input placeholder="repita a senha" type ="text" name="senha-repeat" >
+					 	</div>
+				 	 	<a style="text-decoration: none; position: relative; padding: 10px; color: white; background-color: blue; text-transform: uppercase; " type="submit" > cadastre-se </a>
+					 </div>
+			</form>
+		</div>
+		<footer style="background-color: rgba(0,0,0,.1); padding: 25px 15px;">
+			<div style="text-align: right;">
+				<img width="30" height="30" src="img/twitter-brands.svg">
+				<img width="30" height="30" src="img/facebook-f-brands.svg">
+				<img width="30" height="30" src="img/google-plus-g-brands.svg">
+				<img width="30" height="30" src="img/instagram-brands.svg">
+			</div>
+		</footer>
+	</main>
+
+</body>
+
+</html>
